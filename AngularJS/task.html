@@ -8,10 +8,10 @@
 </head>
 <body>
     <div ng-controller="taskController">
-        <input type="text" ng-model="strings" ng-keyup="callService(strings)"/>
-        <p>{{ strings }}</p>
+        <input type="text" ng-model="input" ng-keyup="callService(input)"/>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
     <script src="./task.js"></script>
+    <script src="./services.js"></script>
 </body>
 </html>
